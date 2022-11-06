@@ -5,11 +5,11 @@ class Solution:
         if (low % 2 == 1 and high % 2 == 1):
             return int((between - 1)/2 + 2)
         elif (low % 2 == 0 and high % 2 == 1):
-            return self.countOdds(low+1, high)
+            return int(between / 2 + 1)
         elif (low % 2 == 1 and high % 2 == 0):
-            return self.countOdds(low, high-1)
+            return int(between / 2 + 1)
         elif (low % 2 == 0 and high % 2 == 0):
-            return self.countOdds(low + 1, high - 1)
+            return int((between + 1) / 2)
         
         return -1
             
