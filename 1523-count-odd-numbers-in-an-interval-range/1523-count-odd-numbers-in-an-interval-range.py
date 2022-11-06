@@ -10,6 +10,6 @@ class Solution:
         elif (not(low % 2) and not(high % 2)):
             return int((high - low) / 2)
         
-        return 0
+        return -1
             
         
