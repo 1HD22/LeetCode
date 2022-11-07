@@ -4,7 +4,8 @@ class Solution:
         n = str(bin(n))
         
         for i in range(2,len(n)):
-            if (n[i] == '1'):
-                sum += 1
+            if (n[i] == '0'):
+                continue
+            sum += 1
         
         return sum
