@@ -1,9 +1,11 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
+        #recursion
         if n == 1:
             return True
         elif n in [2,3,4,5,6,8,9]:
             return False
+        
         
         sum = 0
         n = str(n)
