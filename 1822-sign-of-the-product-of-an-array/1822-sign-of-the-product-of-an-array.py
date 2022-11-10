@@ -10,6 +10,6 @@ class Solution:
             sign *= self.signFunc(nums[i])
             if sign == 0:
                 return 0
-        
+        #1
         return sign
         
