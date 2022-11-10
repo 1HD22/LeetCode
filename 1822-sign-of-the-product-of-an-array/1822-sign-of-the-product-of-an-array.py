@@ -1,11 +1,8 @@
 class Solution:
     def signFunc(self, num: int) -> int:
-        if num > 0:
-            return 1
-        elif num < 0:
-            return -1
-        else:
-            return 0
+        if num == 0:
+            return num
+        return int(num / abs(num))
         
     def arraySign(self, nums: List[int]) -> int:
         sign = 1
