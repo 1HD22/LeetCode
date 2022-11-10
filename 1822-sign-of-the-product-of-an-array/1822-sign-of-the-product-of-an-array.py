@@ -2,7 +2,10 @@ class Solution:
     def signFunc(self, num: int) -> int:
         if num == 0:
             return num
-        return int(num / abs(num))
+        elif num > 0:
+            return 1
+        else:
+            return -1
         
     def arraySign(self, nums: List[int]) -> int:
         sign = 1
