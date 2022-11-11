@@ -18,6 +18,6 @@ class Solution:
             
             if j >= len(nums) - zero:
                 nums[j] = 0
-            
+#
                     
         
