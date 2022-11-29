@@ -6,3 +6,5 @@ class Solution:
         return sum
     def runningSum(self, nums: List[int]) -> List[int]:
         return [Solution.sumlist(self, nums, i) for i in range(len(nums))]
+    
+#1
