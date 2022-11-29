@@ -5,4 +5,4 @@ class Solution:
             ans.append(ans[i - 1] + nums[i])
         return ans
     
-#1
+#0
