@@ -1,11 +1,11 @@
 # Write your MySQL query statement below
 SELECT
- e.name AS Employee
+    e.name AS Employee
 FROM
- EMPLOYEE e
+    EMPLOYEE e
 INNER JOIN
- EMPLOYEE m
+    EMPLOYEE m
 ON
- m.id = e.managerId
+    m.id = e.managerId
 WHERE
- e.salary > m.salary
+    e.salary > m.salary
