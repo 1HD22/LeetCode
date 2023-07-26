@@ -1,6 +1,8 @@
 #
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        
+       # initial naive solution. Time: O(n), Space: O(n)
         count = {}
         length = len(nums)
         
