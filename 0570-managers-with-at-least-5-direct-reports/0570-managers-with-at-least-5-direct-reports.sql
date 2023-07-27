@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+#  Write your MySQL query statement below
 SELECT manager.name
 FROM Employee as manager
 INNER JOIN Employee as employee
