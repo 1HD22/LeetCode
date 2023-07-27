@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+#  Write your MySQL query statement below
 SELECT name, bonus
 FROM Employee as e
 LEFT JOIN Bonus as b
