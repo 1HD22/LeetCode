@@ -36,4 +36,6 @@ class Solution:
         nums[i+1:n] = self.sortArray(nums[i+1:n])
         
         return nums
+
+    #1
         
