@@ -6,7 +6,7 @@ class Solution:
             self.id = id
             self.color = 0
             self.d = 0
-            self.p = None
+
     def isBipartite(self, graph: List[List[int]]) -> bool:
         for i in range(len(graph)):
             self.grapho.append(self.node(i))
@@ -34,7 +34,7 @@ class Solution:
                 if self.grapho[v].color == 0:
                     self.grapho[v].color = 1
                     self.grapho[v].d = u.d + 1
-                    self.grapho[v].p = u
+
                     Q.append(self.grapho[v])
             
 
