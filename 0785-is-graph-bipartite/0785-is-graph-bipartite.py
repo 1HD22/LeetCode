@@ -14,8 +14,6 @@ class Solution:
         for u in self.grapho:
             if u.color == 0:
                 self.BFSVisit(u, graph)
-                
-        print([(u.id, u.d, (lambda x: u.p.id if u.p is not None else None)(u)) for u in self.grapho])
         
         for u in self.grapho:
             for v in graph[u.id]:
