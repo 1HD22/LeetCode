@@ -37,6 +37,5 @@ class Solution:
                     self.grapho[v].p = u
                     Q.append(self.grapho[v])
             
-            u.color = 2
 
         
